@@ -88,6 +88,17 @@ public class KataFizzBuzzTest {
     }
     
     
+    @Test
+    public void testFizzBuzzDetresycincoDevuelveFizzBuzz(){ 
+        KataFizzBuzz fb = new KataFizzBuzz();
+        String result = fb.getFizzBuzz(15);
+        assertEquals("FizzBuzz", result);
+                
+        
+             
+        //(fail("The test case is a prototype.");
+    }
+    
     
     
     

@@ -29,6 +29,14 @@ public class KataFizzBuzz {
                resultado= "Buzz";
             }
           
+           if (n%3==0 & n%5==0)
+              
+           {
+               resultado ="FizzBuzz";
+           }
+                   
+           
+           
            return resultado;
            
     }
