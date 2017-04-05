@@ -13,7 +13,7 @@ public class KataFizzBuzz {
 
     public int getFizzBuzz(int n)
        {
-           return n;
+           return 1;
        }    
     
  

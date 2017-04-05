@@ -40,18 +40,14 @@ public class KataFizzBuzzTest {
     /**
      * Test of main method, of class KataFizzBuzz.
      */
+   
     @Test
     public void testFizzBuzzDeUnoDevuelve1() {
         KataFizzBuzz fb = new KataFizzBuzz();
         int result = fb.getFizzBuzz(1);
         assertEquals(1, result);
-        
                 
-        
-        //System.out.println("main");
-        //String[] args = null;
-        //KataFizzBuzz.main(args);
-        // TODO review the generated test code and remove the default call to fail.
+             
         //(fail("The test case is a prototype.");
     }
     
