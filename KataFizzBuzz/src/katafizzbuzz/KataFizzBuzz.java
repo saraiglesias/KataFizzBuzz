@@ -11,11 +11,23 @@ package katafizzbuzz;
  */
 public class KataFizzBuzz {
 
+    public int getFizzBuzz(int n)
+       {
+           return n;
+       }    
+    
+ 
+         
+    
     /**
      * @param args the command line arguments
      */
+    
     public static void main(String[] args) {
         // TODO code application logic here
+        
+       
+       
     }
     
 }
