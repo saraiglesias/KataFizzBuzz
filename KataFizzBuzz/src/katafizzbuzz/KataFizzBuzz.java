@@ -11,23 +11,43 @@ package katafizzbuzz;
  */
 public class KataFizzBuzz {
 
-    public int getFizzBuzz(int n)
-       {
-           return n;
-       }    
+    public String getFizzBuzz(int n)
+       
+    {
+           String resultado=String.valueOf (n);
+         
+           if (n%3==0) 
+           {
+            
+               resultado = "Fizz";
+           }
+           
+                
+           if (n%5==0)
+           {
+           
+               resultado= "Buzz";
+            }
+          
+           return resultado;
+           
+    }
+}
+
+           
+           
+           
+           
+           
+           
+     
     
  
          
     
-    /**
-     * @param args the command line arguments
-     */
-    
-    public static void main(String[] args) {
-        // TODO code application logic here
-        
+  
        
        
-    }
     
-}
+    
+

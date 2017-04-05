@@ -42,10 +42,10 @@ public class KataFizzBuzzTest {
      */
    
     @Test
-    public void testFizzBuzzDeUnoDevuelve1() {
+    public void testFizzBuzzDeTresDevuelve1() {
         KataFizzBuzz fb = new KataFizzBuzz();
-        int result = fb.getFizzBuzz(1);
-        assertEquals(1, result);
+        String result = fb.getFizzBuzz(1);
+        assertEquals("1", result);
                 
              
         //(fail("The test case is a prototype.");
@@ -55,13 +55,41 @@ public class KataFizzBuzzTest {
     @Test
     public void testFizzBuzzDedosDevuelve2() {
         KataFizzBuzz fb = new KataFizzBuzz();
-        int result = fb.getFizzBuzz(2);
-        assertEquals(2, result);
+        String result = fb.getFizzBuzz(2);
+        assertEquals("2", result);
                 
         
              
         //(fail("The test case is a prototype.");
     }
+    
+    
+    
+    @Test
+    public void testFizzBuzzDetresDevuelveFizz() {
+        KataFizzBuzz fb = new KataFizzBuzz();
+        String result = fb.getFizzBuzz(9);
+        assertEquals("Fizz", result);
+                
+        
+             
+        //(fail("The test case is a prototype.");
+    }
+    
+    @Test
+    public void testFizzBuzzDecincoDevuelveBuzz() {
+        KataFizzBuzz fb = new KataFizzBuzz();
+        String result = fb.getFizzBuzz(25);
+        assertEquals("Buzz", result);
+                
+        
+             
+        //(fail("The test case is a prototype.");
+    }
+    
+    
+    
+    
     
     
     
