@@ -51,4 +51,19 @@ public class KataFizzBuzzTest {
         //(fail("The test case is a prototype.");
     }
     
+    
+    @Test
+    public void testFizzBuzzDedosDevuelve2() {
+        KataFizzBuzz fb = new KataFizzBuzz();
+        int result = fb.getFizzBuzz(2);
+        assertEquals(2, result);
+                
+        
+             
+        //(fail("The test case is a prototype.");
+    }
+    
+    
+    
+    
 }
